@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.log
+
+# Airflow
+logs/
+plugins/
+airflow-webserver.pid
+standalone_admin_password.txt
+
+# Docker & Database Volumes (CRITICAL: Do not commit these!)
+oracle_data_airflow/
+postgres-db-volume/
+postgres_data/
+
+# Data
+data/*.csv
+!data/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+.env
+EOF
